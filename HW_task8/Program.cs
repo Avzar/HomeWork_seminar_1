@@ -11,6 +11,10 @@ int current = 1;
 
 if(N / 2)
 {
-    Console.WriteLine;
+    Console.WriteLine("Число четное");
     current = (current + 1);
+}
+else
+{
+
 }
