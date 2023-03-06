@@ -4,13 +4,4 @@
 // 8 -> 2, 4, 6, 8
 
 Console.WriteLine("Введите число");
-int N = Convert.ToInt32(userAnswer);
-
-int current = 1;
-bool int;
-
-if(N / 2)
-{
-    Console.WriteLine("Число четное");
-}
-current = (current + 1);
+int N = Convert.ToInt32(Console.ReadLine());
