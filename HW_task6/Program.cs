@@ -4,9 +4,10 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.WriteLine("Введите число");
-int number = Convert.ToInt32(Console.ReadLine());
-if(number / 2)
+Console.WriteLine("введите число 1");
+string input1 = Console.ReadLine();
+int number1 = Convert.ToInt32(input1);
+if(number1 % 2 == 0)
 {
     Console.WriteLine("Число четное");
 }

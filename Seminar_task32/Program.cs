@@ -59,3 +59,4 @@ if(myArray.Length % 2 == 1)
     Digits[Digits.Length - 1] = myArray[myArray.Length / 2];
 }
 Console.WriteLine($"Получившийся массив = [{string.Join(", ", Digits)}]");
+
